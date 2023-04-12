@@ -1,0 +1,84 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #309aeb;
+ }
+ .container{
+    background: #000000; 
+    width: 38%;
+    height: 60vh;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px #ffffff,-5px -5px 8px #fffefef8;
+
+ }
+ .display #screen{
+    width: 96%;
+    height: 70px;
+    font-size: 35px;
+    outline:none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1,inset -8px -8px 8px #ffffff;
+ }
+ .btns{
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .btns .row button{
+    width: 62px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 8px #e4e2e2,-5px -5px 8px #000000;
+    transition: .1s;
+ }
+ .btns .row button.equal{
+   width: 140px;
+ }
+ .btns .row button:hover{
+    box-shadow: inset 5px 5px 8px rgba(245, 239, 239, 0.99),inset -5px -5px 8px #00000000;
+    background: #fff;
+ }
+ #eval{
+    background: #11eed4;
+    color: #fff;
+ }
+ #eval:hover{
+    box-shadow: inset 5px 5px 8px #00ace6,inset -5px -5px 8px #00ace6;
+
+ }
+ #clear{
+    background: #11eedb;
+
+    color: #fff;
+ }
+ #clear:hover{
+    box-shadow: inset 5px 5px 8px #00ace6,inset -5px -5px 8px #00ace6;
+
+
+ }
+ #del{
+    background: #11eed0;
+
+    color: #fff;
+ }
+ #del:hover{
+    box-shadow: inset 5px 5px 8px #00ace6,inset -5px -5px 8px #00ace6;
+
+
+ }
